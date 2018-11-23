@@ -13,7 +13,7 @@ var pool = mysql.createPool({
 const sql = require('mssql');
 async() => {
   try{
-    const pool = await sql.connct('mssql://sa:rlaxodud#08@localhost/K4Project')
+    const pool = await sql.connct('mssql://sa:xxxxxx@localhost/K4Project')
         const result = await sql.query`select * from board where idx = 1 `
         console.dir(result)
   }
