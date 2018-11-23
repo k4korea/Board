@@ -5,7 +5,7 @@ const  sql = require('mssql');
 
 const config = {
     user: 'sa',
-    password: 'rlaxodud#08',
+    password: 'xxxxx',
     server: '127.0.0.1', // You can use 'localhost\\instance' to connect to named instance
     database: 'K4Project',
 
